@@ -33,6 +33,7 @@ Route::get('/clear', function() {
 
 Route::get('/', [MainController::class, 'index'])->name('home');
 Route::get('/about', [MainController::class, 'about'])->name('about');
+Route::get('/services', [MainController::class, 'services'])->name('services');
 Route::get('/gallery', [MainController::class, 'gallery'])->name('gallery');
 Route::get('/story', [MainController::class, 'story'])->name('story');
 Route::get('/projects', [MainController::class, 'projects'])->name('projects');
@@ -66,32 +67,32 @@ Route::middleware(['auth'])->prefix('admin')->group(function (){
 	Route::get('logout', [AuthController::class, 'logout'])->name('admin.logout');
 	Route::get('/home', [AuthController::class, 'index'])->name('admin.home');
 
-	Route::get('project', [ProjectController::class, 'index'])->name('admin.project.index'); 
+	Route::get('project', [ProjectController::class, 'index'])->name('admin.project.index');
 	Route::get('project/create', [ProjectController::class, 'create'])->name('admin.project.create');
 	Route::post('project/store', [ProjectController::class, 'store'])->name('admin.project.store');
 	Route::get('project/edit/{id}', [ProjectController::class, 'edit'])->name('admin.project.edit');
-	Route::post('project/update/{id}', [ProjectController::class, 'update'])->name('admin.project.update');	
+	Route::post('project/update/{id}', [ProjectController::class, 'update'])->name('admin.project.update');
 	Route::get('project/destroy/{id}', [ProjectController::class, 'destroy'])->name('admin.project.destroy');
 
-	Route::get('recette', [RecetteController::class, 'index'])->name('admin.recette.index'); 
+	Route::get('recette', [RecetteController::class, 'index'])->name('admin.recette.index');
 	Route::get('recette/create', [RecetteController::class, 'create'])->name('admin.recette.create');
 	Route::post('recette/store', [RecetteController::class, 'store'])->name('admin.recette.store');
 	Route::get('recette/edit/{id}', [RecetteController::class, 'edit'])->name('admin.recette.edit');
-	Route::post('recette/update/{id}', [RecetteController::class, 'update'])->name('admin.recette.update');	
+	Route::post('recette/update/{id}', [RecetteController::class, 'update'])->name('admin.recette.update');
 	Route::get('recette/destroy/{id}', [RecetteController::class, 'destroy'])->name('admin.recette.destroy');
 
-	Route::get('produit', [ProduitController::class, 'index'])->name('admin.produit.index'); 
+	Route::get('produit', [ProduitController::class, 'index'])->name('admin.produit.index');
 	Route::get('produit/create', [ProduitController::class, 'create'])->name('admin.produit.create');
 	Route::post('produit/store', [ProduitController::class, 'store'])->name('admin.produit.store');
 	Route::get('produit/edit/{id}', [ProduitController::class, 'edit'])->name('admin.produit.edit');
-	Route::post('produit/update/{id}', [ProduitController::class, 'update'])->name('admin.produit.update');	
+	Route::post('produit/update/{id}', [ProduitController::class, 'update'])->name('admin.produit.update');
 	Route::get('produit/destroy/{id}', [ProduitController::class, 'destroy'])->name('admin.produit.destroy');
 
-	Route::get('post', [PostController::class, 'index'])->name('admin.post.index'); 
+	Route::get('post', [PostController::class, 'index'])->name('admin.post.index');
 	Route::get('post/create', [PostController::class, 'create'])->name('admin.post.create');
 	Route::post('post/store', [PostController::class, 'store'])->name('admin.post.store');
 	Route::get('post/edit/{id}', [PostController::class, 'edit'])->name('admin.post.edit');
-	Route::post('post/update/{id}', [PostController::class, 'update'])->name('admin.post.update');	
+	Route::post('post/update/{id}', [PostController::class, 'update'])->name('admin.post.update');
 	Route::get('post/destroy/{id}', [PostController::class, 'destroy'])->name('admin.post.destroy');
 
 	Route::get('contact', [DashboardController::class, 'all_contacts'])->name('admin.contact.index');

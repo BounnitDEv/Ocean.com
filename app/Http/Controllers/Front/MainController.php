@@ -29,6 +29,11 @@ class MainController extends Controller
         return view('front.about');
     }
 
+    public function services(){
+
+        return view('front.services');
+    }
+
     public function gallery(){
 
         return view('front.gallery');
@@ -60,7 +65,7 @@ class MainController extends Controller
         }
         // dd($category);
         $args = compact('project', 'projects');
-        
+
         return view('front.project', $args);
     }
 
@@ -71,7 +76,7 @@ class MainController extends Controller
         if(!$posts){
             return redirect('/');
         }
-        
+
         return view('front.blog', ['posts' => $posts]);
     }
 
@@ -85,7 +90,7 @@ class MainController extends Controller
         }
         // dd($category);
         $args = compact('post', 'posts');
-        
+
         return view('front.post', $args);
     }
 
@@ -118,7 +123,7 @@ class MainController extends Controller
         }
         // dd($recette);
         $args = compact('recette', 'recettes');
-        
+
         return view('front.recette', $args);
     }
 
@@ -143,7 +148,7 @@ class MainController extends Controller
         }
         // dd($produit);
         $args = compact('produit', 'produits');
-        
+
         return view('front.produit', $args);
     }
 

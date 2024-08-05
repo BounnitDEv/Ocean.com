@@ -1,126 +1,248 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
+<!-- Mirrored from templates.hibootstrap.com/perhu/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2024 00:34:23 GMT -->
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tanda - IT Solutions Template">
 
-    <!-- ========== Page Title ========== -->
-    <title>Tanda - IT Solutions Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-    <!-- ========== Start Stylesheet ========== -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/themify-icons.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/flaticon-set.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/magnific-popup.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/css/bootsnav.css') }}" rel="stylesheet" />
-    <link href="{{asset('assets/style.css')}}" rel="stylesheet">
-    <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet" />
-    <!-- ========== End Stylesheet ========== -->
-
-
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/line-awesome.min.css">
+<link rel="stylesheet" href="assets/css/flaticon.css">
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+<link rel="stylesheet" href="assets/css/aos.css">
+<link rel="stylesheet" href="assets/css/odometer.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/dark-theme.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<title>Coach Samira - Life Coach & Therapist Bootstrap 5 Template</title>
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
-
-
 <body>
 
-    <!-- Preloader Start -->
-    <div class="se-pre-con"></div>
-    <!-- Preloader Ends -->
-
-    
-    <!-- Header 
-    ============================================= -->
-    <header id="home">
-
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav">
-
-            <div class="container-full">
-
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav inc-border">
-                    <ul>
-                       {{--  <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
-                                <i class="fa fa-shopping-basket"></i>
-                                <span class="badge">3</span>
-                            </a>
-                            <ul class="dropdown-menu cart-list">
-                                <li>
-                                    <a href="#" class="photo"><img src="assets/img/100x100.png" class="cart-thumb" alt="" /></a>
-                                    <h6><a href="#">Delica omtantur </a></h6>
-                                    <p>2x - <span class="price">$99.99</span></p>
-                                </li>
-                                <li>
-                                    <a href="#" class="photo"><img src="assets/img/100x100.png" class="cart-thumb" alt="" /></a>
-                                    <h6><a href="#">Omnes ocurreret</a></h6>
-                                    <p>1x - <span class="price">$33.33</span></p>
-                                </li>
-                                <li>
-                                    <a href="#" class="photo"><img src="assets/img/100x100.png" class="cart-thumb" alt="" /></a>
-                                    <h6><a href="#">Agam facilisis</a></h6>
-                                    <p>2x - <span class="price">$99.99</span></p>
-                                </li>
-                                <li class="total">
-                                    <span class="pull-right"><strong>Total</strong>: $0.00</span>
-                                    <a href="#" class="btn btn-default btn-cart">Cart</a>
-                                </li>
-                            </ul>
-                        </li> --}}
-                        <li class="button"><a href="{{ route('contact') }}"> Contactez-nous</a></li>
-                    </ul>
-                </div>        
-                <!-- End Atribute Navigation -->
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="{{ route('home') }}">
-                        <img src="{{asset('assets/img/logo-white.png')}}" class="logo logo-display" alt="Logo">
-                        <img src="{{asset('assets/img/sicilia.png')}}" class="logo logo-scrolled" alt="Logo">
-                    </a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-                        
-                        <li><a href="{{ route('home')}}">Acceuil</a></li>
-                        <li><a href="{{ route('about')}}">À PROPOS</a></li>
-                        <li><a href="{{ route('nos-produits')}}">Nos Produits</a></li>
-                       
-                        <li><a href="{{ route('nos-recettes') }}">Nos Recettes</a></li>
-                        <li><a href="{{ route('gallery') }}">Gallery</a></li>
-                        <li><a href="{{ route('story') }}">La story Sicilia</a></li>
-                        {{-- <li><a href="{{ route('blog')}}">Blog</a></li> --}}
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div>
-
-        </nav>
-        <!-- End Navigation -->
-
-    </header>
-    <!-- End Header -->
+<div class="preloader js-preloader">
+<img src="assets/img/preloader.gif" alt="Image">
+</div>
 
 
+<div class="switch-theme-mode">
+<label id="switch" class="switch">
+<input type="checkbox" onchange="toggleTheme()" id="slider">
+<span class="slider round"></span>
+</label>
+</div>
 
 
-            
+<div class="page-wrapper ">
+
+<header class="header-wrap style1">
+<div class="header-top bg-white xl-none">
+<div class="close-header-top ">
+<button type="button"><i class="las la-times"></i></button>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="select-lang">
+<div class="navbar-option-item navbar-language dropdown language-option">
+<button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<i class="las la-globe"></i>
+<span class="lang-name"></span>
+</button>
+<div class="dropdown-menu language-dropdown-menu">
+<a class="dropdown-item" href="#">
+<img src="assets/img/uk.png" alt="flag">
+Eng
+</a>
+<a class="dropdown-item" href="#">
+<img src="assets/img/china.png" alt="flag">
+简体中文
+</a>
+<a class="dropdown-item" href="#">
+<img src="assets/img/uae.png" alt="flag">
+العربيّة
+</a>
+</div>
+</div>
+</div>
+<a href="appointment.html" class="btn style1">Fixer un Rendez-vous</a>
+</div>
+</div>
+</div>
+</div>
+<div class="header-bottom">
+<div class="container-fluid">
+<div class="row align-items-center">
+<div class="col-xl-2 col-lg-6 col-md-6 col-5">
+<a href="/" class="logo">
+<img class="logo-light" src="assets/img/logoof.png" alt="Image">
+<img class="logo-dark" src="assets/img/logo-white.png" alt="Image">
+</a>
+</div>
+<div class="col-xl-10 col-lg-6 col-md-6 col-7">
+<div class="header-bottom-right">
+<div class="header-menu">
+<div class="main-menu-wrap">
+<div class="menu-close xl-none">
+<a href="javascript:void(0)"><i class="las la-times"></i></a>
+</div>
+<div id="menu">
+<ul class="main-menu list-style">
+<li>
+<a class="active" href="/">Accueil</a>
+</li>
+<li class="has-children">
+<a href="#">Services</a>
+<ul class="sub-menu list-style">
+<li><a href="services.html">Our Services</a></li>
+<li>
+<a href="service-details.html">Service Single</a>
+</li>
+</ul>
+</li>
+<li class="has-children">
+<a href="#">Projects</a>
+<ul class="sub-menu list-style">
+<li><a href="projects.html">Our Projects</a></li>
+<li>
+<a href="project-details.html">Project Single</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/about">À propos</a>
+<!-- <ul class="sub-menu list-style">
+<li><a href="about.html">About Us</a></li>
+<li class="has-children"><a href="#">Events</a>
+<ul class="sub-menu list-style">
+<li>
+<a href="events.html">All Events</a>
+</li>
+<li>
+<a href="event-details.html">Event Single</a>
+</li>
+</ul>
+</li>
+<li class="has-children"><a href="#">Courses</a>
+<ul class="sub-menu list-style">
+<li>
+<a href="courses.html">All Courses</a>
+</li>
+<li>
+<a href="course-details.html">Course Single</a>
+</li>
+</ul>
+</li>
+<li><a href="team.html">Team</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="pricing-plan.html">Pricing Table</a></li>
+<li><a href="appointment.html">Make An Appointment</a></li>
+<li class="has-children"><a href="#">User</a>
+<ul class="sub-menu list-style">
+<li>
+<a href="login.html">Login</a>
+</li>
+<li>
+<a href="register.html">Register</a>
+</li>
+<li>
+<a href="forgot-pwd.html">Forgot Password</a>
+</li>
+</ul>
+</li>
+<li><a href="privacy-policy.html">Privacy Policy</a></li>
+<li><a href="terms-conditions.html">Terms &amp; Conditions</a>
+</li>
+<li><a href="404.html">404 Error</a></li>
+</ul> -->
+</li>
+<li class="has-children">
+<a href="#">Blog</a>
+<ul class="sub-menu list-style">
+<li class="has-children"><a href="#">Blog Layout</a>
+<ul class="sub-menu list-style">
+<li><a href="blog-no-sidebar.html">Blog Grid </a></li>
+<li><a href="blog-left-sidebar.html">Blog Left
+Sidebar</a></li>
+<li><a href="blog-right-sidebar.html">Blog Right
+Sidebar</a></li>
+</ul>
+</li>
+<li class="has-children"><a href="#">Blog Single</a>
+<ul class="sub-menu list-style">
+<li><a href="blog-details-no-sidebar.html">Blog Single
+No Sidebar</a></li>
+<li><a href="blog-details-left-sidebar.html">Blog Single
+Left Sidebar</a></li>
+<li><a href="blog-details-right-sidebar.html">Blog
+Single Right Sidebar</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="/contact">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="mobile-bar-wrap">
+<div class="mobile-top-bar xl-none">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div class="mobile-menu xl-none">
+<a href="javascript:void(0)"><i class="las la-bars"></i></a>
+</div>
+</div>
+</div>
+<div class="select-lang lg-none">
+<div class="navbar-option-item navbar-language dropdown language-option">
+<button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<i class="las la-globe"></i>
+<span class="lang-name"></span>
+</button>
+<div class="dropdown-menu language-dropdown-menu">
+<a class="dropdown-item" href="#">
+<img src="assets/img/uk.png" alt="flag">
+Eng
+</a>
+<a class="dropdown-item" href="#">
+<img src="assets/img/china.png" alt="flag">
+简体中文
+</a>
+<a class="dropdown-item" href="#">
+<img src="assets/img/uae.png" alt="flag">
+العربيّة
+</a>
+</div>
+</div>
+</div>
+<button class="searchbtn"><i class="flaticon-search-1"></i></button>
+<a href="appointment.html" class="btn style1 lg-none">Fixer un Rendez-vous</a>
+</div>
+</div>
+</div>
+<div class="search-area">
+<div class="container">
+<button type="button" class="close-searchbox">
+<i class="las la-times"></i>
+</button>
+<form action="#">
+<div class="form-group">
+<input type="search" placeholder="Search Here" autofocus>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</header>
 
 
 
@@ -134,193 +256,105 @@
 
 
 
-    @yield('content')        
-    
+
+
+
+
+
+    @yield('content')
 
 
 
 
 
 
-                
-    <!-- Start Footer 
-    ============================================= -->
-    <footer class="bg-dark text-light">
-        <!-- Fixed Shape -->
-        <div class="fixed-shape">
-            <img src="assets/img/shape/2.png" alt="Shape">
-        </div>
-        <!-- Fixed Shape -->
+
+
+<footer class="footer-wrap style1 bg-f footer-bg-1" style="background-image:url(assets/img/project/single-project-1.jpg);">
+    <div class="overlay bg-black op-9"></div>
+    <div class="footer-top pt-100 pb-70">
         <div class="container">
-            <div class="f-items default-padding">
-                <div class="row">
-                    <!-- Single Itme -->
-                    <div class="col-lg-4 col-md-6 item">
-                        <div class="f-item about">
-                            <img src="{{asset('assets/img/logo-white.png')}}" alt="Logo">
-                           
+            <div class="row">
+                <div class="footer-widget-wrap">
+                    <div class="footer-widget">
+                        <a href="index.html" class="footer-logo">
+                            <img src="assets/img/logo-white.png" alt="Image">
+                        </a>
+                        <div class="comp-desc">
+                            <p>Pour toute information supplémentaire ou assistance, n'hésitez pas à nous joindre. Nous sommes là pour vous aider.</p>
                         </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-2 col-md-6 item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Explore</h4>
-                            <ul>
-                                <li>
-                                    <a href="{{ route('home') }}">Acceuil</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('about') }}">À Propos</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('nos-produits') }}">Nos Produits</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('nos-recettes') }}">Nos Recettes</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('gallery') }}">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('story') }}">La story sicilia</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('contact') }}">Contactez-nous</a>
-                                </li>
-                                
+                        <div class="social-box">
+                            <ul class="social-profile style1 list-style">
+                                <li><a target="_blank" href="https://facebook.com/"><i class="flaticon-facebook-app-symbol"></i></a></li>
+                                <li><a target="_blank" href="https://twitter.com/"><i class="flaticon-twitter"></i></a></li>
+                                <li><a target="_blank" href="https://linkedin.com/"><i class="flaticon-instagram-2"></i></a></li>
+                                <li><a target="_blank" href="https://instagram.com/"><i class="flaticon-pinterest"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="f-item recent-post">
-                            <h4 class="widget-title">Recent Posts</h4>
-                            <ul>
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="assets/img/thumbs/3.jpg" alt="Thumb">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">Meant widow equal an share least part. </a>
-                                        <div class="meta-title">
-                                            <span class="post-date">12 Feb, 2019</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="assets/img/thumbs/5.jpg" alt="Thumb">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">Future Plan & Strategy for Consutruction </a>
-                                        <div class="meta-title">
-                                            <span class="post-date">18 Mar, 2019</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="f-item">
-                            <h4 class="widget-title">Contact Info</h4>
-                            <div class="address">
-                                <ul>
-                                    <li>
-                                        <strong>Address: </strong>
-                                        TFZ ZONE LOGISTIQUE LOT N°86 A-14 TANGER
-                                        
-                                    </li>
-                                    <li>
-                                        <strong>Email: </strong>
-                                        <a href="mailto:info@lasicilia.com">info@lasicilia.com</a>
-                                    </li>
-                                    <li>
-                                        <strong>Phone: </strong>
-                                        <a href="#"> +123 456 7890</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li class="facebook">
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="youtube">
-                                        <a href="#">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Itme -->
-                </div>
-            </div>
-        </div>
-        <!-- Start Footer Bottom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-7">
-                        <p>Tous droits réservés &copy;  2024. SITE WEB CRÉÉ PAR : <a href="https://maroc-freelance.com/">WWW.MAROCFREELANCE.COM </a></p>
-                    </div>
-                    <div class="col-md-5 text-right link">
-                        <ul>
-                            <li>R.C :128843– IF : 52537981</li>
-                            <li>
-                               ICE :003075060000045
-                            </li>
-                           
+                    <div class="footer-widget">
+                        <h4 class="footer-widget-title">Liens Rapides</h4>
+                        <ul class="footer-menu list-style">
+                            <li><a href="/about"><i class="flaticon-right-arrow-3"></i> À propos de nous</a></li>
+                            <li><a href="/services"><i class="flaticon-right-arrow-3"></i> Services</a></li>
+                            <li><a href="events.html"><i class="flaticon-right-arrow-3"></i> Événements</a></li>
+                            <li><a href="blog-left-sidebar.html"><i class="flaticon-right-arrow-3"></i> Blog</a></li>
+                            <li><a href="/contact"><i class="flaticon-right-arrow-3"></i> Contact</a></li>
                         </ul>
                     </div>
+                    <div class="footer-widget">
+                        <h4 class="footer-widget-title">Explorer</h4>
+                        <ul class="footer-menu list-style">
+                            <li><a href="/contact"><i class="flaticon-right-arrow-3"></i> Prendre un Rendez-vous</a></li>
+                            <li><a href="courses.html"><i class="flaticon-right-arrow-3"></i> Nos Cours</a></li>
+                            <li><a href="projects.html"><i class="flaticon-right-arrow-3"></i> Conseil</a></li>
+                            <li><a href="/about"><i class="flaticon-right-arrow-3"></i> Nos Histoires</a></li>
+                            <li><a href="/about"><i class="flaticon-right-arrow-3"></i> Carrière</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h4 class="footer-widget-title">Contacter Nous!</h4>
+                        <div class="newsletter-box">
+                            <p>Abonnez-vous à notre newsletter pour recevoir nos dernières actualités !</p>
+                            <form class="subscribe-form position-relative newsletter-form" data-toggle="validator">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Votre Email" name="EMAIL" required autocomplete="off">
+                                    <button type="submit" class="btns me-1 border-0 position-absolute top-50 end-0 translate-middle-y text-primary">
+                                        <i class="flaticon-direct"></i>
+                                    </button>
+                                    <div id="validator-newsletter" class="form-result"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- End Footer Bottom -->
-    </footer>
-    <!-- End Footer -->
+    </div>
+    <div class="footer-bottom">
+        <div class="copyright">
+            <p><span class="las la-copyright"></span> Perhu. All Rights Reserved By <a href="https://hibootstrap.com/">HiBootstrap</a></p>
+        </div>
+    </div>
+</footer>
+</div>
 
-    <!-- jQuery Frameworks
-    ============================================= -->
-    <script src="{{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/equal-height.min.html') }}"></script>
-    <script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/js/modernizr.custom.13711.js') }}"></script>
-    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
-    <script src="{{ asset('assets/js/progress-bar.min.js') }}"></script>
-    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/js/count-to.js') }}"></script>
-    <script src="{{ asset('assets/js/YTPlayer.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootsnav.js') }}"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>
 
+<a href="javascript:void(0)" class="back-to-top"><i class="las la-arrow-up"></i></a>
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/form-validator.min.js"></script>
+<script src="assets/js/contact-form-script.js"></script>
+<script src="assets/js/ajaxchimp.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/fslightbox.js"></script>
+<script src="assets/js/jquery.appear.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
+
+<!-- Mirrored from templates.hibootstrap.com/perhu/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2024 00:34:44 GMT -->
 </html>
