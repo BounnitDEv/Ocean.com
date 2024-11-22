@@ -8,135 +8,101 @@
 
 @section('content')
 
-<div class="content-wrapper">
-
-<div class="breadcrumb-wrap bg-f br-1">
-<div class="overlay bg-black op-8"></div>
-<div class="container">
-<div class="row">
-<div class="col-xl-12">
-<div class="breadcrumb-title">
-<h2>Contact Us</h2>
-<ul class="breadcrumb-menu list-style">
-<li><a href="/">Home </a></li>
-<li>Contact Us</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<section class="contact-wrap pt-100 pb-100">
-<div class="container">
-<div class="row pb-75 justify-content-center">
-<div class="col-lg-4 col-md-6">
-<div class="contact-box">
-<div class="contact-icon">
-<i class="flaticon-telephone"></i>
-</div>
-<div class="contact-info">
-<h5>Téléphone</h5>
-<p>Nous serons heureux de vous aider. Appelez-nous, nous travaillerons ensemble.</p>
-<a href="#" class="link style1">0678-099798</a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="contact-box">
-<div class="contact-icon">
-<i class="flaticon-envelope"></i>
-</div>
-<div class="contact-info">
-<h5>Email</h5>
-<p>Nous serons heureux de vous aider. Envoyez-nous un email, nous travaillerons ensemble.</p>
-<a href="#" class="link style1">contact.coachsamira@gmail.com</a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="contact-box">
-<div class="contact-icon">
-<i class="flaticon-maps-and-flags"></i>
-</div>
-<div class="contact-info">
-<h5>Addresse</h5>
-<p>166, <br> Bd Abdelkrim El Khattabi, Appt N°8, <br> Gueliz, Marrakech</p>
-<a href="https://www.google.com/maps/place/Miramas/@31.636805,-8.0219524,17z/data=!4m10!1m2!2m1!1sBd+Abdelkrim+El+Khattabi,+Appt+N%C2%B08,+Gueliz,+Marrakech!3m6!1s0xdafee974bacac0b:0x30369be9a9ddbc93!8m2!3d31.6368005!4d-8.0193775!15sCjZCZCBBYmRlbGtyaW0gRWwgS2hhdHRhYmksIEFwcHQgTsKwOCwgR3VlbGl6LCBNYXJyYWtlY2iSARJhcGFydG1lbnRfYnVpbGRpbmfgAQA!16s%2Fg%2F1w9y2ftn?entry=ttu" class="link style1">View On Google map</a>
-</div>
-</div>
-</div>
-</div>
-<div class="row ">
-<div class="section-title style1 mb-40 text-center">
-<h2>Contacter nous!</h2>
-<p>Nous sommes ici pour vous accompagner dans votre démarche. Que vous ayez des questions, besoin de plus d'informations ou souhaitiez planifier une séance, n'hésitez pas à nous contacter. Votre bien-être est notre priorité et nous avons hâte d'échanger avec vous.</p>
-</div>
-<div class="col-lg-10 offset-lg-1">
-<div class="contact-form">
-<form id="contactForm">
-<div class="row">
-<div class="col-lg-6">
-<div class="form-group mb-4">
-<input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Votre Nom">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group mb-4">
-<input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Votre Email">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group mb-4">
-<input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Votre Téléphone">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group mb-4">
-<input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Votre Sujet">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-12">
-<div class="form-group mb-4">
-<textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Écrivez votre message"></textarea>
-<div class="help-block with-errors" aria-placeholder="Your Message"></div>
-</div>
-</div>
-<div class="col-lg-12">
-<div class="form-check ps-0">
-<div class="form-group">
-<div class="form-check">
-<input name="gridCheck" value="I agree to the terms and privacy policy." class="form-check-input" type="checkbox" id="gridCheck" required>
-<label class="form-check-label" for="gridCheck">
-J'accepte la <a href="terms-conditions.html" class="text-primary">politique de confidentialité</a>
-</label>
-<div class="help-block with-errors gridCheck-error"></div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-12">
-<button type="submit" class="btn style1 w-100">
-<span class="border-style">Envoyez un message</span>
-</button>
-<div id="msgSubmit" class="h3 text-center hidden"></div>
-<div class="clearfix"></div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</section>
-<div class="comp-map" id="com-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.0257832026755!2d-8.016650024322889!3d31.633144429762552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee917f04f6d3%3A0xccab21d6c0fa41b2!2sn%208%2C%20166%20Bd%20Abdelkrim%20Al%20Khattabi%2C%20Marrakech%2040000!5e0!3m2!1sfr!2sma!4v1722537728549!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-
-</div>
+      <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/1920x544_bg2.jpg') }}">
+        <div class="container">
+          <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> - <span>Contact Us v1</span>
+          </nav>
+          <h1 class="mad-page-title">Contact Us v1</h1>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content no-pd">
+        <div class="container">
+          <div class="mad-section mad-section--stretched mad-colorizer--scheme-">
+            <div class="mad-colorizer-bg-color">
+              <div class="with-svg-item bottom2"><img src="{{ asset('assets/html/lemar/images/bottom_half_left.png') }}" alt=""></div>
+            </div>
+            <div class="row hr-size-2">
+              <div class="col-xl-8">
+                <h2>Get in Touch</h2>
+                <div class="row hr-size-2">
+                  <div class="col-md-5">
+                    <div class="mad-vr-list content-element-5">
+                      <ul>
+                        <li>
+                          56 12th Ave, <br>
+                          New York, NY 10011 <br>
+                          <a href="#" class="mad-dir mad-link">Get Direction</a>
+                        </li>
+                        <li>
+                          +1 800 603 6035 <br>
+                          +1 800 603 6036 <br>
+                          <a href="#" class="mad-link">mail@companyname.com</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="mad-social-icons style-3">
+                      <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <p>If you have any further enquiries, please use the form below.</p>
+                    <form class="mad-contact-form size-2">
+                      <div class="mad-col">
+                        <input type="text" id="cf_name" name="cf_name" required placeholder="Your Name">
+                      </div>
+                      <div class="mad-col">
+                        <input type="email" id="cf_email" name="cf_email" required placeholder="E-mail">
+                      </div>
+                      <div class="mad-col">
+                        <textarea rows="4" id="message" name="cf_message" required placeholder="Message"></textarea>
+                      </div>
+                      <div class="mad-col">
+                        <button type="submit" class="btn"><span>Submit</span></button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="mad-tt-element no-border">
+                  <span class="mad-tt-svg"><span><img src="{{ asset('assets/html/lemar/images/crab.png') }}" alt=""></span></span>
+                  <h4 class="mad-title">We Are Open</h4>
+                  <div class="mad-timetable mad-vr-list">
+                    <ul>
+                      <li>
+                        <div class="mad-tt-title">Brunch</div>
+                        Saturday: 10am – 2pm
+                      </li>
+                      <li>
+                        <div class="mad-tt-title">Dinner</div>
+                        Monday – Thursday: 5pm – 10pm <br>
+                        Friday – Saturday: 4pm – 11pm
+                      </li>
+                      <li>
+                        <div class="mad-tt-title">Happy Hour</div>
+                        Monday – Thursday: 5pm – 6pm <br>
+                        Friday – Saturday: 2pm – 4pm
+                      </li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-style-6">Make a Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================ Google Map ================-->
+        <!-- <div id="googleMap" class="mad-gmap wide"></div> -->
+      </div>
 
 
 @endsection

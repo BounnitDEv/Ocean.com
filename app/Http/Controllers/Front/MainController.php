@@ -28,6 +28,14 @@ class MainController extends Controller
 
         return view('front.about');
     }
+    public function menu(){
+
+        return view('front.menu');
+    }
+    public function chefs(){
+
+        return view('front.chefs');
+    }
 
     public function services(){
 
@@ -92,6 +100,11 @@ class MainController extends Controller
         $args = compact('post', 'posts');
 
         return view('front.post', $args);
+    }
+
+    public function reservation(){
+
+        return view('front.reservation');
     }
 
     public function contact(){

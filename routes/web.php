@@ -33,6 +33,8 @@ Route::get('/clear', function() {
 
 Route::get('/', [MainController::class, 'index'])->name('home');
 Route::get('/about', [MainController::class, 'about'])->name('about');
+Route::get('/menu', [MainController::class, 'menu'])->name('menu');
+Route::get('/chefs', [MainController::class, 'chefs'])->name('chefs');
 Route::get('/services', [MainController::class, 'services'])->name('services');
 Route::get('/gallery', [MainController::class, 'gallery'])->name('gallery');
 Route::get('/story', [MainController::class, 'story'])->name('story');
@@ -42,8 +44,10 @@ Route::get('/recette/{slug}', [MainController::class, 'recette'])->name('recette
 
 Route::get('/blog', [MainController::class, 'blog'])->name('blog');
 Route::get('/post/{slug}', [MainController::class, 'post'])->name('post');
+Route::get('/reservation', [MainController::class, 'reservation'])->name('reservation');
 Route::get('/contact', [MainController::class, 'contact'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
+
 
 Route::get('/nos-produits', [MainController::class, 'nos_produits'])->name('nos-produits');
 Route::get('/produit/{slug}', [MainController::class, 'produit'])->name('produit');

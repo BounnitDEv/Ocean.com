@@ -1,264 +1,99 @@
 
 
+
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
-<!-- Mirrored from templates.hibootstrap.com/perhu/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2024 00:34:23 GMT -->
 <head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/line-awesome.min.css">
-<link rel="stylesheet" href="assets/css/flaticon.css">
-<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-<link rel="stylesheet" href="assets/css/aos.css">
-<link rel="stylesheet" href="assets/css/odometer.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/dark-theme.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<title>Coach Samira - Life Coach & Therapist Bootstrap 5 Template</title>
-<link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <!--================ Basic page needs ================-->
+  <title>Home 3</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!--================ Mobile specific metas ================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--================ Favicon ================-->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!--================ Google web fonts ================-->
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700%7CSatisfy&amp;display=swap"
+    rel="stylesheet">
+  <!--================ Vendor CSS ================-->
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/css/fontawesome-all.min.css')}}">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+    rel="stylesheet">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/css/animate.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/css/linearicons.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/vendors/owl-carousel/assets/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/vendors/fancybox/jquery.fancybox.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/vendors/arcticmodal/jquery.arcticmodal-0.3.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/vendors/revolution/css/settings.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/vendors/revolution/css/layers.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/vendors/revolution/css/navigation.min.css')}}">
+  <!--================ Theme CSS ================-->
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/css/style.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/html/lemar/css/responsive.css')}}">
+  <!--================ Vendor JS ================-->
 </head>
+
 <body>
+  <div class="mad-preloader"></div>
+  <div id="mad-page-wrapper" class="mad-page-wrapper">
 
-<div class="preloader js-preloader">
-<img src="assets/img/preloader.gif" alt="Image">
-</div>
+    <!--================ Header ================-->
+    <header id="mad-header" class="mad-header mad-header--transparent">
+      <div class="container">
+        <!--================ Section ================-->
+        <div class="mad-header-section">
+          <div class="mad-header-items item-col-3">
+            <div class="mad-header-item">
+              <div><i class="material-icons">phone</i> +1 800 603 6035</div>
+            </div>
+            <div class="mad-header-item">
+              <a href="index.html" class="mad-logo"><img src="{{ asset('assets/html/lemar/images/logo.png') }}" alt=""></a>
+            </div>
+            <div class="mad-header-item">
+              <div class="mad-social-icons">
+                <ul>
+                  <li><a href="https://www.facebook.com/p/Ocean-Tanger-100063954668528"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.instagram.com/oceantangermaroc"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.tripadvisor.fr/Restaurant_Review-g293737-d1896074-Reviews-Restaurant_L_Ocean-Tangier_Tanger_Tetouan_Al_Hoceima.html"><i class="fab fa-tripadvisor"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================ End of Section ================-->
+        <div class="mad-header-section--sticky-xl">
+          <div class="container">
+            <!--================ Navigation ================-->
+            <nav class="mad-navigation-container mad-header-section--sticky-xl">
+              <ul class="mad-navigation mad-navigation--vertical-sm">
+                <li class="menu-item current-menu-item"><a href="{{ route('home') }}">Home</a>
+                </li>
+                <li class="menu-item current-menu-item"><a href="{{ route('about') }}">About Us</a>
+                </li>
+                <li class="menu-item current-menu-item"><a href="{{ route('menu') }}">Menu</a>
+                </li>
+                <li class="menu-item current-menu-item"><a href="{{ route('chefs') }}">Our Chefs</a>
+                </li>
+                <li class="menu-item current-menu-item"><a href="{{ route('gallery') }}">Gallery</a>
+                </li>
+                <li class="menu-item current-menu-item"><a href="{{ route('reservation') }}">Reservation</a>
+                </li>
+                <li class="menu-item current-menu-item"><a href="{{ route('contact') }}">Contact Us</a>
+                </li>
 
-
-<div class="switch-theme-mode">
-<label id="switch" class="switch">
-<input type="checkbox" onchange="toggleTheme()" id="slider">
-<span class="slider round"></span>
-</label>
-</div>
-
-
-<div class="page-wrapper ">
-
-<header class="header-wrap style1">
-<div class="header-top bg-white xl-none">
-<div class="close-header-top ">
-<button type="button"><i class="las la-times"></i></button>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<div class="select-lang">
-<div class="navbar-option-item navbar-language dropdown language-option">
-<button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<i class="las la-globe"></i>
-<span class="lang-name"></span>
-</button>
-<div class="dropdown-menu language-dropdown-menu">
-<a class="dropdown-item" href="#">
-<img src="assets/img/uk.png" alt="flag">
-Eng
-</a>
-<a class="dropdown-item" href="#">
-<img src="assets/img/china.png" alt="flag">
-简体中文
-</a>
-<a class="dropdown-item" href="#">
-<img src="assets/img/uae.png" alt="flag">
-العربيّة
-</a>
-</div>
-</div>
-</div>
-<a href="appointment.html" class="btn style1">Fixer un Rendez-vous</a>
-</div>
-</div>
-</div>
-</div>
-<div class="header-bottom">
-<div class="container-fluid">
-<div class="row align-items-center">
-<div class="col-xl-2 col-lg-6 col-md-6 col-5">
-<a href="/" class="logo">
-<img class="logo-light" src="assets/img/logoof.png" alt="Image">
-<img class="logo-dark" src="assets/img/logo-white.png" alt="Image">
-</a>
-</div>
-<div class="col-xl-10 col-lg-6 col-md-6 col-7">
-<div class="header-bottom-right">
-<div class="header-menu">
-<div class="main-menu-wrap">
-<div class="menu-close xl-none">
-<a href="javascript:void(0)"><i class="las la-times"></i></a>
-</div>
-<div id="menu">
-<ul class="main-menu list-style">
-<li>
-<a class="active" href="/">Accueil</a>
-</li>
-<li class="has-children">
-<a href="#">Services</a>
-<ul class="sub-menu list-style">
-<li><a href="services.html">Our Services</a></li>
-<li>
-<a href="service-details.html">Service Single</a>
-</li>
-</ul>
-</li>
-<li class="has-children">
-<a href="#">Projects</a>
-<ul class="sub-menu list-style">
-<li><a href="projects.html">Our Projects</a></li>
-<li>
-<a href="project-details.html">Project Single</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="/about">À propos</a>
-<!-- <ul class="sub-menu list-style">
-<li><a href="about.html">About Us</a></li>
-<li class="has-children"><a href="#">Events</a>
-<ul class="sub-menu list-style">
-<li>
-<a href="events.html">All Events</a>
-</li>
-<li>
-<a href="event-details.html">Event Single</a>
-</li>
-</ul>
-</li>
-<li class="has-children"><a href="#">Courses</a>
-<ul class="sub-menu list-style">
-<li>
-<a href="courses.html">All Courses</a>
-</li>
-<li>
-<a href="course-details.html">Course Single</a>
-</li>
-</ul>
-</li>
-<li><a href="team.html">Team</a></li>
-<li><a href="testimonials.html">Testimonials</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="pricing-plan.html">Pricing Table</a></li>
-<li><a href="appointment.html">Make An Appointment</a></li>
-<li class="has-children"><a href="#">User</a>
-<ul class="sub-menu list-style">
-<li>
-<a href="login.html">Login</a>
-</li>
-<li>
-<a href="register.html">Register</a>
-</li>
-<li>
-<a href="forgot-pwd.html">Forgot Password</a>
-</li>
-</ul>
-</li>
-<li><a href="privacy-policy.html">Privacy Policy</a></li>
-<li><a href="terms-conditions.html">Terms &amp; Conditions</a>
-</li>
-<li><a href="404.html">404 Error</a></li>
-</ul> -->
-</li>
-<li class="has-children">
-<a href="#">Blog</a>
-<ul class="sub-menu list-style">
-<li class="has-children"><a href="#">Blog Layout</a>
-<ul class="sub-menu list-style">
-<li><a href="blog-no-sidebar.html">Blog Grid </a></li>
-<li><a href="blog-left-sidebar.html">Blog Left
-Sidebar</a></li>
-<li><a href="blog-right-sidebar.html">Blog Right
-Sidebar</a></li>
-</ul>
-</li>
-<li class="has-children"><a href="#">Blog Single</a>
-<ul class="sub-menu list-style">
-<li><a href="blog-details-no-sidebar.html">Blog Single
-No Sidebar</a></li>
-<li><a href="blog-details-left-sidebar.html">Blog Single
-Left Sidebar</a></li>
-<li><a href="blog-details-right-sidebar.html">Blog
-Single Right Sidebar</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<a href="/contact">Contact</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="mobile-bar-wrap">
-<div class="mobile-top-bar xl-none">
-<span></span>
-<span></span>
-<span></span>
-</div>
-<div class="mobile-menu xl-none">
-<a href="javascript:void(0)"><i class="las la-bars"></i></a>
-</div>
-</div>
-</div>
-<div class="select-lang lg-none">
-<div class="navbar-option-item navbar-language dropdown language-option">
-<button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<i class="las la-globe"></i>
-<span class="lang-name"></span>
-</button>
-<div class="dropdown-menu language-dropdown-menu">
-<a class="dropdown-item" href="#">
-<img src="assets/img/uk.png" alt="flag">
-Eng
-</a>
-<a class="dropdown-item" href="#">
-<img src="assets/img/china.png" alt="flag">
-简体中文
-</a>
-<a class="dropdown-item" href="#">
-<img src="assets/img/uae.png" alt="flag">
-العربيّة
-</a>
-</div>
-</div>
-</div>
-<button class="searchbtn"><i class="flaticon-search-1"></i></button>
-<a href="appointment.html" class="btn style1 lg-none">Fixer un Rendez-vous</a>
-</div>
-</div>
-</div>
-<div class="search-area">
-<div class="container">
-<button type="button" class="close-searchbox">
-<i class="las la-times"></i>
-</button>
-<form action="#">
-<div class="form-group">
-<input type="search" placeholder="Search Here" autofocus>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              </ul>
+            </nav>
+            <!--================ End of Navigation ================-->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--================ End of Header ================-->
 
 
     @yield('content')
@@ -270,91 +105,112 @@ Eng
 
 
 
-<footer class="footer-wrap style1 bg-f footer-bg-1" style="background-image:url(assets/img/project/single-project-1.jpg);">
-    <div class="overlay bg-black op-9"></div>
-    <div class="footer-top pt-100 pb-70">
+<!--================ Footer ================-->
+<footer id="mad-footer" class="mad-footer">
+      <!--================ Footer row ================-->
+      <div class="mad-footer-main">
         <div class="container">
-            <div class="row">
-                <div class="footer-widget-wrap">
-                    <div class="footer-widget">
-                        <a href="index.html" class="footer-logo">
-                            <img src="assets/img/logo-white.png" alt="Image">
-                        </a>
-                        <div class="comp-desc">
-                            <p>Pour toute information supplémentaire ou assistance, n'hésitez pas à nous joindre. Nous sommes là pour vous aider.</p>
-                        </div>
-                        <div class="social-box">
-                            <ul class="social-profile style1 list-style">
-                                <li><a target="_blank" href="https://facebook.com/"><i class="flaticon-facebook-app-symbol"></i></a></li>
-                                <li><a target="_blank" href="https://twitter.com/"><i class="flaticon-twitter"></i></a></li>
-                                <li><a target="_blank" href="https://linkedin.com/"><i class="flaticon-instagram-2"></i></a></li>
-                                <li><a target="_blank" href="https://instagram.com/"><i class="flaticon-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">Liens Rapides</h4>
-                        <ul class="footer-menu list-style">
-                            <li><a href="/about"><i class="flaticon-right-arrow-3"></i> À propos de nous</a></li>
-                            <li><a href="/services"><i class="flaticon-right-arrow-3"></i> Services</a></li>
-                            <li><a href="events.html"><i class="flaticon-right-arrow-3"></i> Événements</a></li>
-                            <li><a href="blog-left-sidebar.html"><i class="flaticon-right-arrow-3"></i> Blog</a></li>
-                            <li><a href="/contact"><i class="flaticon-right-arrow-3"></i> Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">Explorer</h4>
-                        <ul class="footer-menu list-style">
-                            <li><a href="/contact"><i class="flaticon-right-arrow-3"></i> Prendre un Rendez-vous</a></li>
-                            <li><a href="courses.html"><i class="flaticon-right-arrow-3"></i> Nos Cours</a></li>
-                            <li><a href="projects.html"><i class="flaticon-right-arrow-3"></i> Conseil</a></li>
-                            <li><a href="/about"><i class="flaticon-right-arrow-3"></i> Nos Histoires</a></li>
-                            <li><a href="/about"><i class="flaticon-right-arrow-3"></i> Carrière</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">Contacter Nous!</h4>
-                        <div class="newsletter-box">
-                            <p>Abonnez-vous à notre newsletter pour recevoir nos dernières actualités !</p>
-                            <form class="subscribe-form position-relative newsletter-form" data-toggle="validator">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Votre Email" name="EMAIL" required autocomplete="off">
-                                    <button type="submit" class="btns me-1 border-0 position-absolute top-50 end-0 translate-middle-y text-primary">
-                                        <i class="flaticon-direct"></i>
-                                    </button>
-                                    <div id="validator-newsletter" class="form-result"></div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+          <div class="row hr-size-1">
+            <div class="col-md-4">
+              <!--================ Widget ================-->
+              <section class="mad-widget">
+                <h4 class="mad-widget-title">We Are Open</h4>
+                <div class="mad-timetable mad-vr-list">
+                  <ul>
+                    <li>
+                      <div class="mad-tt-title">Brunch</div>
+                      Saturday: 10am – 2pm
+                    </li>
+                    <li>
+                      <div class="mad-tt-title">Dinner</div>
+                      Monday – Thursday: 5pm – 10pm <br>
+                      Friday – Saturday: 4pm – 11pm
+                    </li>
+                    <li>
+                      <div class="mad-tt-title">Happy Hour</div>
+                      Monday – Thursday: 5pm – 6pm <br>
+                      Friday – Saturday: 2pm – 4pm
+                    </li>
+                  </ul>
                 </div>
+              </section>
+              <!--================ End of Widget ================-->
             </div>
+            <div class="col-md-4">
+              <!--================ Widget ================-->
+              <section class="mad-widget">
+                <a href="#" class="mad-logo content-element-3"><img src="{{ asset('assets/html/lemar/images/logo2.png') }}" alt=""></a>
+                <div class="mad-vr-list content-element-5">
+                  <ul>
+                    <li>
+                      56 12th Ave, <br>
+                      New York, NY 10011 <br>
+                      <a href="#" class="mad-dir mad-link">Get Direction</a>
+                    </li>
+                    <li>
+                      +1 800 603 6035 <br>
+                      +1 800 603 6036 <br>
+                      <a href="#" class="mad-link">oceantanger@gmail.com</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mad-social-icons style-2 size-big">
+                  <ul class="justify-content-center">
+                    <li><a href="https://www.facebook.com/p/Ocean-Tanger-100063954668528"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/oceantangermaroc"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.tripadvisor.fr/Restaurant_Review-g293737-d1896074-Reviews-Restaurant_L_Ocean-Tangier_Tanger_Tetouan_Al_Hoceima.html"><i class="fab fa-tripadvisor"></i></a></li>
+                    <li><a href="https://www.youtube.com/embed/kQPbxV0c1YY?si=Y78m18d3nCAsq7iC"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </section>
+              <!--================ End of Widget ================-->
+            </div>
+            <div class="col-md-4">
+              <!--================ Widget ================-->
+              <section class="mad-widget">
+                <h4 class="mad-widget-title">Useful Links</h4>
+                <div class="mad-vr-list">
+                  <ul>
+                    <li><a href="{{ route('home') }}" class="mad-link">Home</a></li>
+                    <li><a href="{{ route('about') }}" class="mad-link">About us</a></li>
+                    <li><a href="{{ route('menu') }}" class="mad-link">Menu</a></li>
+                    <li><a href="{{ route('chefs') }}" class="mad-link">Our Chefs</a></li>
+                    <li><a href="{{ route('gallery') }}" class="mad-link">Gallery</a></li>
+                    <li><a href="{{ route('reservation') }}" class="mad-link">Reservation</a></li>
+                    <li><a href="{{ route('contact') }}" class="mad-link">Contact us</a></li>
+                  </ul>
+                </div>
+              </section>
+              <!--================ End of Widget ================-->
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="copyright">
-            <p><span class="las la-copyright"></span> Perhu. All Rights Reserved By <a href="https://hibootstrap.com/">HiBootstrap</a></p>
-        </div>
-    </div>
-</footer>
-</div>
+      </div>
+      <!--================ End of Footer row ================-->
+      <p class="copyrights">Tous droits réservés © 2024 <a href="#" class="mad-link link-white">L'océan</a>.<br>
+      SITE WEB CRÉÉ PAR  <a href="https://maroc-freelance.com/"> WWW.MAROCFREELANCE.COM </a></p>
+    </footer>
+    <!--================ End of Footer ================-->
+  </div>
+    <script src="{{ asset('assets/html/lemar/vendors/modernizr.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/jquery.easing.1.3.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/instafeed.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/instafeed.wrapper.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/monkeysan.jquery.nav.1.0.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/monkeysan.tabs.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/arcticmodal/jquery.arcticmodal-0.3.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/handlebars-v4.0.5.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/monkeysan.validator.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/owl-carousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/jquery.parallax-1.1.3.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/vendors/retina.min.js') }}"></script>
 
-
-<a href="javascript:void(0)" class="back-to-top"><i class="las la-arrow-up"></i></a>
-
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/form-validator.min.js"></script>
-<script src="assets/js/contact-form-script.js"></script>
-<script src="assets/js/ajaxchimp.min.js"></script>
-<script src="assets/js/aos.js"></script>
-<script src="assets/js/swiper-bundle.min.js"></script>
-<script src="assets/js/fslightbox.js"></script>
-<script src="assets/js/jquery.appear.js"></script>
-<script src="assets/js/odometer.min.js"></script>
-<script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/html/lemar/js/modules/mad.alert-box.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/js/modules/mad.newsletter-form.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/js/modules/mad.sticky-header-section.min.js') }}"></script>
+    <script src="{{ asset('assets/html/lemar/js/mad.app.js') }}"></script>
+    @stack('scripts')
 </body>
 
-<!-- Mirrored from templates.hibootstrap.com/perhu/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2024 00:34:44 GMT -->
 </html>
