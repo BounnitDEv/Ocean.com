@@ -6,7 +6,7 @@
 
 <head>
   <!--================ Basic page needs ================-->
-  <title>Home 3</title>
+  <title>L' Océan</title>
   <meta charset="UTF-8">
   <meta name="author" content="">
   <meta name="keywords" content="">
@@ -49,7 +49,7 @@
         <div class="mad-header-section">
           <div class="mad-header-items item-col-3">
             <div class="mad-header-item">
-              <div><i class="material-icons">phone</i> +1 800 603 6035</div>
+              <div><i class="material-icons">phone</i> +212 (0) 539 338 137</div>
             </div>
             <div class="mad-header-item">
               <a href="index.html" class="mad-logo"><img src="{{ asset('assets/html/lemar/images/logo.png') }}" alt=""></a>
@@ -71,19 +71,19 @@
             <!--================ Navigation ================-->
             <nav class="mad-navigation-container mad-header-section--sticky-xl">
               <ul class="mad-navigation mad-navigation--vertical-sm">
-                <li class="menu-item current-menu-item"><a href="{{ route('home') }}">Home</a>
+                <li class="menu-item current-menu-item"><a href="{{ route('home') }}">Accueil</a>
                 </li>
-                <li class="menu-item current-menu-item"><a href="{{ route('about') }}">About Us</a>
+                <li class="menu-item current-menu-item"><a href="{{ route('about') }}">À Propos</a>
                 </li>
                 <li class="menu-item current-menu-item"><a href="{{ route('menu') }}">Menu</a>
                 </li>
-                <li class="menu-item current-menu-item"><a href="{{ route('chefs') }}">Our Chefs</a>
+                <li class="menu-item current-menu-item"><a href="{{ route('chefs') }}">Nos Chefs</a>
                 </li>
                 <li class="menu-item current-menu-item"><a href="{{ route('gallery') }}">Gallery</a>
                 </li>
                 <li class="menu-item current-menu-item"><a href="{{ route('reservation') }}">Reservation</a>
                 </li>
-                <li class="menu-item current-menu-item"><a href="{{ route('contact') }}">Contact Us</a>
+                <li class="menu-item current-menu-item"><a href="{{ route('contact') }}">Contactez-nous</a>
                 </li>
 
               </ul>
@@ -114,7 +114,7 @@
             <div class="col-md-4">
               <!--================ Widget ================-->
               <section class="mad-widget">
-                <h4 class="mad-widget-title">We Are Open</h4>
+                <h4 class="mad-widget-title">Prêts à vous servir !</h4>
                 <div class="mad-timetable mad-vr-list">
                   <ul>
                     <li>
@@ -122,12 +122,12 @@
                       Saturday: 10am – 2pm
                     </li>
                     <li>
-                      <div class="mad-tt-title">Dinner</div>
+                      <div class="mad-tt-title">Dîner</div>
                       Monday – Thursday: 5pm – 10pm <br>
                       Friday – Saturday: 4pm – 11pm
                     </li>
                     <li>
-                      <div class="mad-tt-title">Happy Hour</div>
+                      <div class="mad-tt-title">Offres Spéciales</div>
                       Monday – Thursday: 5pm – 6pm <br>
                       Friday – Saturday: 2pm – 4pm
                     </li>
@@ -143,13 +143,13 @@
                 <div class="mad-vr-list content-element-5">
                   <ul>
                     <li>
-                      56 12th Ave, <br>
-                      New York, NY 10011 <br>
-                      <a href="#" class="mad-dir mad-link">Get Direction</a>
+                      Plage sidi kacem, <br>
+                      Tanger 90000 <br>
+                      <a href="#" class="mad-dir mad-link">Voir l'itinéraire</a>
                     </li>
                     <li>
-                      +1 800 603 6035 <br>
-                      +1 800 603 6036 <br>
+                      +212 (0) 539 338 137 <br>
+                      +212 (0) 539 338 137 <br>
                       <a href="#" class="mad-link">oceantanger@gmail.com</a>
                     </li>
                   </ul>
@@ -168,16 +168,16 @@
             <div class="col-md-4">
               <!--================ Widget ================-->
               <section class="mad-widget">
-                <h4 class="mad-widget-title">Useful Links</h4>
+                <h4 class="mad-widget-title">Liens</h4>
                 <div class="mad-vr-list">
                   <ul>
-                    <li><a href="{{ route('home') }}" class="mad-link">Home</a></li>
-                    <li><a href="{{ route('about') }}" class="mad-link">About us</a></li>
+                    <li><a href="{{ route('home') }}" class="mad-link">Accueil</a></li>
+                    <li><a href="{{ route('about') }}" class="mad-link">À Propos</a></li>
                     <li><a href="{{ route('menu') }}" class="mad-link">Menu</a></li>
-                    <li><a href="{{ route('chefs') }}" class="mad-link">Our Chefs</a></li>
+                    <li><a href="{{ route('chefs') }}" class="mad-link">Nos Chefs</a></li>
                     <li><a href="{{ route('gallery') }}" class="mad-link">Gallery</a></li>
                     <li><a href="{{ route('reservation') }}" class="mad-link">Reservation</a></li>
-                    <li><a href="{{ route('contact') }}" class="mad-link">Contact us</a></li>
+                    <li><a href="{{ route('contact') }}" class="mad-link">Contactez-nous</a></li>
                   </ul>
                 </div>
               </section>

@@ -9,7 +9,7 @@
 @section('content')
 
       <!--================ Breadcrumb ================-->
-      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/1920x544_bg2.jpg') }}">
+      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/A8E582F8-D933-4FA6-A11E-760744F028BA.jpeg') }}">
         <div class="container">
           <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> - <span>Reserations Via Open Table</span>
           </nav>
@@ -51,7 +51,7 @@
               </div>
             </div>
           </div>
-          <div data-bg-image-src="{{ asset('assets/html/lemar/images/1920x999_bg1.jpg') }}"
+          <div data-bg-image-src="{{ asset('assets/html/lemar/images/D3828FF7-1C50-4B2A-A640-0F66E7DD3F71 (5).webp') }}"
             class="mad-section mad-bg-section mad-section--stretched mad-colorizer--scheme- mad-colorizer--parallax">
           </div>
           <div class="mad-section">

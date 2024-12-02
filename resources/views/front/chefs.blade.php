@@ -10,7 +10,7 @@
 
 
       <!--================ Breadcrumb ================-->
-      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/1920x544_bg1.jpg') }}">
+      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/0B5DF75D-686C-4561-92A4-6F399A8707FF (1).webp') }}">
         <div class="container">
           <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> - <span>Team Members and Awards</span>
           </nav>
@@ -322,7 +322,7 @@
             </ul>
             <!--================ End of Partners ================-->
           </div>
-          <div data-bg-image-src="{{ asset('assets/html/lemar/images/1922x1008_bg1.jpg') }}" class="mad-cta mad-section with-overlay mad-section--stretched mad-colorizer--scheme-light mad-colorizer--parallax">
+          <div data-bg-image-src="{{ asset('assets/html/lemar/images/D3828FF7-1C50-4B2A-A640-0F66E7DD3F71 (5).webp') }}" class="mad-cta mad-section with-overlay mad-section--stretched mad-colorizer--scheme-light mad-colorizer--parallax">
             <h2 class="mad-title">Awards v2</h2>
             <!--================ Partners ================-->
             <ul class="mad-sponsors style-2 item-col-6">

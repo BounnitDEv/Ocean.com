@@ -10,7 +10,7 @@
 
 
       <!--================ Breadcrumb ================-->
-      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/1920x544_bg2.jpg') }}">
+      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/D2A39B45-F7C5-417F-8B7F-31A486F0EEE9.jpeg') }}">
         <div class="container">
           <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> - <span>About Us</span>
           </nav>
@@ -101,7 +101,8 @@
             </div>
             <!--================ End of Icon Boxes ================-->
           </div>
-          <div class="mad-section">
+
+            <div class="mad-section">
             <h2 class="mad-section-title align-center">Testimonials</h2>
             <!--================ Testimonials ================-->
             <div class="mad-testimonials">
@@ -239,8 +240,10 @@
               </div>
             </div>
             <!--================ End of Testimonials ================-->
+
           </div>
-          <article data-bg-image-src="{{ asset('assets/html/lemar/images/1920x999_bg1.jpg') }}"
+
+          <article data-bg-image-src="{{ asset('assets/html/lemar/images/D3828FF7-1C50-4B2A-A640-0F66E7DD3F71 (7).webp') }}"
             class="mad-cta mad-section with-overlay-2 mad-section--stretched mad-colorizer--scheme- mad-colorizer--parallax">
             <div class="align-center">
               <h2 class="mad-cta-title">Enjoy unforgettable <br>

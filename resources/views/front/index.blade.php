@@ -15,7 +15,7 @@
           <!--================ Slide 1 ================-->
           <li data-transition="fade">
             <!-- MAIN IMAGE -->
-            <img src="{{ asset('assets/html/lemar/images/1920x1080_slide1.jpg') }}" alt="" data-bgposition="top center" data-bgfit="cover"
+            <img src="{{ asset('assets/html/lemar/images/D3828FF7-1C50-4B2A-A640-0F66E7DD3F71 (8).webp') }}" alt="" data-bgposition="top center" data-bgfit="cover"
               data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
             <!--================ Layer ================-->
             <div
@@ -45,7 +45,7 @@
           <!--================ Slide 2 ================-->
           <li data-transition="fade">
             <!-- MAIN IMAGE -->
-            <img src="{{ asset('assets/html/lemar/images/1920x1080_slide2.jpg') }}" alt="" data-bgposition="top center" data-bgfit="cover"
+            <img src="{{ asset('assets/html/lemar/images/3703F840-56DD-4079-A175-23135E18C52D (3).webp') }}" alt="" data-bgposition="top center" data-bgfit="cover"
               data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
             <!--================ Layer ================-->
             <div
@@ -77,7 +77,7 @@
           <!--================ Slide 3 ================-->
           <li data-transition="fade">
             <!-- MAIN IMAGE -->
-            <img src="{{ asset('assets/html/lemar/images/1920x1080_slide3.jpg') }}" alt="" data-bgposition="top center" data-bgfit="cover"
+            <img src="{{ asset('assets/html/lemar/images/1114DCAC-9ECF-4BE5-9E68-024B6C81C646 (1).webp') }}" alt="" data-bgposition="top center" data-bgfit="cover"
               data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
             <!--================ Layer ================-->
             <div
@@ -333,22 +333,22 @@
         <div class="mad-section no-pd mad-section--stretched-content-no-px">
           <div class="mad-gallery">
             <div class="mad-gallery-item x2">
-              <a href="#"><img src="{{ asset('assets/html/lemar/images/947x472_img1.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/html/lemar/images/1114DCAC-9ECF-4BE5-9E68-024B6C81C646.webp') }}" alt=""></a>
             </div>
             <div class="mad-gallery-item">
-              <a href="#"><img src="{{ asset('assets/html/lemar/images/470x472_img1.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/html/lemar/images/A52E1B47-BB7B-4AF0-8FE5-408CE71F8CC2.webp') }}" alt=""></a>
             </div>
             <div class="mad-gallery-item">
-              <a href="#"><img src="{{ asset('assets/html/lemar/images/470x472_img2.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/html/lemar/images/D85CF9DF-200A-4D7F-92D0-39B7F716A9CD.webp') }}" alt=""></a>
             </div>
             <div class="mad-gallery-item">
-              <a href="#"><img src="{{ asset('assets/html/lemar/images/470x472_img3.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/html/lemar/images/BE2AE241-6D01-46C8-9D26-D08C38C1EB80.webp') }}" alt=""></a>
             </div>
             <div class="mad-gallery-item x2">
-              <a href="#"><img src="{{ asset('assets/html/lemar/images/947x472_img2.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/html/lemar/images/B8F81736-8310-443A-B79B-08B33C6792B5.webp') }}" alt=""></a>
             </div>
             <div class="mad-gallery-item">
-              <a href="#"><img src="{{ asset('assets/html/lemar/images/470x472_img4.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/html/lemar/images/50C396EF-405A-4565-A8BB-BE175945DD78.webp') }}" alt=""></a>
             </div>
           </div>
         </div>
@@ -370,7 +370,7 @@
           </div>
         </div>
         <div class="mad-section mad-bg-section no-pd mad-section--stretched mad-colorizer--scheme- mad-colorizer--parallax"
-          data-bg-image-src="{{ asset('assets/html/lemar/images/1920x616_img1.jpg') }}"></div>
+          data-bg-image-src="{{ asset('assets/html/lemar/images/D3828FF7-1C50-4B2A-A640-0F66E7DD3F71 (5).webp') }}"></div>
         <div class="mad-section mad-section--stretched mad-colorizer--scheme-color-3 mad-colorizer--scheme-light">
           <h2 class="mad-title align-center">What We Offer</h2>
           <!--================ Icon Boxes ================-->
@@ -431,7 +431,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-xl-8">
-              <h2 class="mad-title align-center">Upcoming Events</h2>
+              <h2 class="mad-title align-center">Events at Our Restaurant</h2>
               <!--================ Events ================-->
               <div class="mad-events">
                 <!--================ Event ================-->
@@ -464,7 +464,7 @@
                     Friday
                   </div>
                   <div class="mad-event-title">Valentine's Day Dinner</div>
-                  <a href="#" class="btn">Book a Table</a>
+                  <a href="#" class="btn">View Photos</a>
                 </div>
                 <!--================ End of Event ================-->
               </div>
@@ -478,7 +478,7 @@
         <div class="mad-section no-pd mad-section--stretched-content-no-px">
           <div class="row no-gutters align-items-center">
             <div class="col-xl-6">
-              <div class="mad-section-img" data-bg-image-src="{{ asset('assets/html/lemar/images/960x632_img1.jpg') }}"></div>
+              <div class="mad-section-img" data-bg-image-src="{{ asset('assets/html/lemar/images/D8453012-314A-4ED1-B1CF-9DACF0E543E2.jpeg') }}"></div>
             </div>
             <div class="col-xl-6">
               <div class="mad-testimonials-wrap">
@@ -589,7 +589,7 @@
               </div>
             </div>
             <div class="col-xl-6">
-              <div class="mad-section-img" data-bg-image-src="{{ asset('assets/html/lemar/images/960x624_img1.jpg') }}"></div>
+              <div class="mad-section-img" data-bg-image-src="{{ asset('assets/html/lemar/images/A8E582F8-D933-4FA6-A11E-760744F028BA.jpeg') }}"></div>
             </div>
           </div>
         </div>

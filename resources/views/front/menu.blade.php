@@ -9,7 +9,7 @@
 @section('content')
 
       <!--================ Breadcrumb ================-->
-      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/1920x544_bg3.jpg') }}">
+      <div class="mad-breadcrumb with-bg" data-bg-image-src="{{ asset('assets/html/lemar/images/7B514A41-3FA0-414B-9141-53F12062821F.webp') }}">
         <div class="container">
           <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> - <span>Menu v4</span>
           </nav>
@@ -32,7 +32,7 @@
               <div class="mad-col">
                 <!-- Specification item -->
                 <div class="mad-spec-item">
-                  <figure><img src="{{ asset('assets/html/lemar/images/448x272_img1.jpg') }}" alt=""></figure>
+                  <figure><img src="{{ asset('assets/html/lemar/images/6C63F599-E7D3-400A-97E2-6E754B1FA2DB (1).webp') }}" alt=""></figure>
                   <div class="mad-spec-info">
                     <div class="mad-spec-header">
                       <div class="mad-spec-title">Santorini Fava</div>
@@ -51,7 +51,7 @@
               <div class="mad-col">
                 <!-- Specification item -->
                 <div class="mad-spec-item">
-                  <figure><img src="{{ asset('assets/html/lemar/images/448x272_img2.jpg') }}" alt=""></figure>
+                  <figure><img src="{{ asset('assets/html/lemar/images/3703F840-56DD-4079-A175-23135E18C52D (2).webp') }}" alt=""></figure>
                   <div class="mad-spec-info">
                     <div class="mad-spec-header">
                       <div class="mad-spec-title">Chargrilled Seafood Platter</div>
@@ -68,7 +68,7 @@
               <div class="mad-col">
                 <!-- Specification item -->
                 <div class="mad-spec-item">
-                  <figure><img src="{{ asset('assets/html/lemar/images/448x272_img3.jpg') }}" alt=""></figure>
+                  <figure><img src="{{ asset('assets/html/lemar/images/8F9374C8-260B-4946-8CE5-A67633257D46.webp') }}" alt=""></figure>
                   <div class="mad-spec-info">
                     <div class="mad-spec-header">
                       <div class="mad-spec-title">Louie</div>
@@ -84,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div data-bg-image-src="{{ asset('assets/html/lemar/images/1920x925_bg1.jpg') }}" class="mad-section with-overlay mad-section--stretched mad-colorizer--scheme- mad-colorizer--scheme-light mad-colorizer--parallax">
+          <div data-bg-image-src="{{ asset('assets/html/lemar/images/586D1E86-EF29-4D25-8056-AF23C2EC0A40 (3).webp') }}" class="mad-section with-overlay mad-section--stretched mad-colorizer--scheme- mad-colorizer--scheme-light mad-colorizer--parallax">
             <div class="align-center">
               <h2 class="mad-cta-title no-bs">Brunch</h2>
               <p>Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac, <br> viverra sed, nulla. Donec porta diam eu
@@ -321,7 +321,7 @@
               </div>
             </div>
           </div>
-          <div data-bg-image-src="{{ asset('assets/html/lemar/images/1920x920_bg1.jpg') }}"
+          <div data-bg-image-src="{{ asset('assets/html/lemar/images/F4AD71DC-3D6A-4FA5-ACE0-F134DF6DEF24.webp') }}"
             class="mad-section with-overlay mad-section--stretched mad-colorizer--scheme- mad-colorizer--scheme-light mad-colorizer--parallax">
             <div class="align-center">
               <h2 class="mad-cta-title no-bs">Dinner</h2>
@@ -833,7 +833,7 @@
               </div>
             </div>
           </div>
-          <div data-bg-image-src="{{ asset('assets/html/lemar/images/1920x925_bg2.jpg') }}"
+          <div data-bg-image-src="{{ asset('assets/html/lemar/images/D2A39B45-F7C5-417F-8B7F-31A486F0EEE9.webp') }}"
             class="mad-section with-overlay mad-section--stretched mad-colorizer--scheme- mad-colorizer--scheme-light mad-colorizer--parallax">
             <div class="align-center">
               <h2 class="mad-cta-title no-bs">Happy Hour</h2>
